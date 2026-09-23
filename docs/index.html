@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>自学是门手艺</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
+</head>
+<body>
+  <div id="app">加载中...</div>
 
+  <script>
+    window.$docsify = {
+      // 因为 index.html 在 docs/，所以这里实际读取 docs/markdown/
+      basePath: 'markdown/',
+
+      // 首页文件，对应 docs/markdown/01.preface.md
+      homepage: '01.preface.md',
+
+      // 开启侧边栏，会读取 docs/markdown/_sidebar.md
+      loadSidebar: true,
+
+      // 自动添加 H1 标题
+      autoHeader: true,
+
+      // 右上角 GitHub Corner，改成你自己的仓库
+      repo: 'xiaoqi1016/the-craft-of-selfteaching',
+
+      // 搜索
+      search: {
+        placeholder: '搜索...',
+        paths: 'auto'
+      }
+    }
+  </script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+</body>
+</html>
