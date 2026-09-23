@@ -1,3 +1,4 @@
+* [01.preface（前言）](00.cover.md)
 * [01.preface（前言）](01.preface.md)
 * [02.proof-of-work（如何证明你真的读过这本书？）](02.proof-of-work.md)
 * [Part.1.A.better.teachyourself（为什么一定要掌握自学能力？）](Part.1.A.better.teachyourself.md)
